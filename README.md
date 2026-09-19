@@ -1,17 +1,23 @@
-# catalog_navigator_app
+# Catalog Navigation App
 
-A new Flutter project.
+Aplikasi Flutter demo Navigator.push antar screen, dengan
+StatelessWidget (Screen 1) dan StatefulWidget (Screen 2).
 
-## Getting Started
+## Cara Setup
 
-This project is a starting point for a Flutter application.
+```bash
+git clone https://github.com/alzfall/catalog-navigation-app.git
+cd catalog-navigation-app
+flutter pub get
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Cara Menjalankan
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+```bash
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Database MySQL
+
+Aplikasi ini belum menggunakan database MySQL. Data katalog masih
+berupa data dummy statis di `lib/data/catalog_data.dart`.
